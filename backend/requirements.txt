@@ -1,0 +1,16 @@
+# Core MVP dependencies (Milestones 1-16: WebRTC pairing, barcode, OCR, product DB)
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+sqlalchemy==2.0.36
+pydantic==2.10.3
+pydantic-settings==2.7.0
+python-multipart==0.0.19
+websockets==14.1
+python-dotenv==1.0.1
+aiofiles==24.1.0
+
+# ML / computer-vision deps are intentionally NOT installed yet — see
+# requirements-ml.txt. Install those only once a dataset is available and
+# you're ready for Milestone 17+ (training). Keeping them out of this file
+# keeps the base MVP install fast and avoids a multi-GB torch download that
+# isn't needed until training actually starts.

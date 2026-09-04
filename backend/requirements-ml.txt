@@ -1,0 +1,6 @@
+# Install this only when you're ready to train (Milestone 17+) and have provided
+# your dataset:  pip install -r requirements-ml.txt
+ultralytics==8.3.49
+opencv-python-headless==4.10.0.84
+numpy<2.0
+Pillow==11.0.0

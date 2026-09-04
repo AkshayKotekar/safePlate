@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+backend/venv/
+
+# Node
+frontend/node_modules/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Raw archives (already extracted into datasets/extracted and datasets/prepared,
+# which are tracked via Git LFS instead — see .gitattributes)
+datasets/datasets/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Local runtime / session artifacts
+backend/safeplate.db
+backend_dev.log
+frontend_dev.log
+.claude/
+models/.runs/freshness_classifier_train.log
